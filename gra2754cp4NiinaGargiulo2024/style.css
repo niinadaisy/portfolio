@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s;
+    background-color: #171717;
+        }
+
+   nav {
+    background-color: #DFDFDF;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #828282;
+    color: #fff;
+}
+
+.burger-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.burger-icon span {
+    height: 3px;
+    width: 25px;
+    background-color: #333;
+    margin: 5px 0;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.navbar {
+    display: none;
+    flex-direction: row;
+}
+
+.navbar a {
+    margin: 10px;
+}
+
+.show {
+    display: flex !important;
+}
+
+        wrapper {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    background-color: #54290E;
+    min-width: 500px;
+    max-width: 1500px;
+    transition: background-color 0.5s;
+    background-image: url(ParadiseLantern.jpg);
+        }
+
+        wrapper img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        section {
+    background-color: #171717;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(173,208,158,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(173,208,158,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(173,208,158,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(173,208,158,1.00) 100%);
+        }
+
+        section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+footer {
+    color: #FBFAFA;
+}
+#Layer_1 {
+    display: inherit;
+}
+
+        @media (min-width: 1000px) {
+            body {
+    background-color: #6B5C6A;
+            }
+wrapper {
+    background-image: url(RackedRocks3.jpg);
+    background-size: cover;
+}
+
+            nav {
+                background-color: #828282;
+                justify-content: center;
+            }
+
+            .burger-icon {
+                display: none;
+            }
+
+            .navbar {
+    display: inherit;
+            }
+
+            section {
+    width: 30%;
+    margin-right: 40px;
+    display: inline-block;
+            }
+#Layer_1 {
+    width: 45%;
+}
+        }
+
+        @media (min-width: 1500px) {
+            body {
+    background-color: #D0D0D0;
+            }
+
+            nav {
+    background-color: #426286;
+    color: #FFFFFF;
+            }
+.navbar {
+}
+
+            wrapper {
+    background-color: #D2C5DE;
+    background-image: url(RomanticWaterfall.jpg);
+    background-size: cover;
+            }
+
+            section {
+    width: 30%;
+            }
+#Layer_1 {
+    width: 30%;
+}
+        }@charset "UTF-8";
